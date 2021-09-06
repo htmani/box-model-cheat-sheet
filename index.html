@@ -1,0 +1,61 @@
+<!DOCUTYPE html>
+    <html>
+        <head>
+            <title>CSS Box Model Cheat Sheet</title>
+            <!--Font-->
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+            <!--Style-->
+            <link href="resources/style.css" type="text/css" rel="stylesheet">
+        </head>
+        <body>
+            <h1>The Box Model</h1>
+                <p>Used to determine size, position, and properties of each element on a page.</p>
+                    <div class="box" id="purple-box">
+                        <p>Margin</p>
+                    </div>
+                    <div class="box" id="orange-box">
+                        <p>Border</p>
+                    </div>
+                     <div class="box" id="blue-box">
+                        <p>Padding</p>
+                    </div>
+                     <div class="box" id="pink-box">
+                        <p>Content</p>
+                     </div>
+                <br>
+            <table>
+                <thead class="header">
+                    <td>Area</td>
+                    <td>Definition/Function</td>
+                    <td rowspan="2">CSS Properties</td>
+                </thead>
+                    <tr>
+                        <td>Content</td>
+                        <td>Contains content that should be viewd on page (ie. text, images, video player, etc.)</td>
+                        <td>width, height, box-sizing</td>
+                    </tr>
+                    <tr>
+                        <td>Padding</td>
+                        <td>Extends blank area around content</td>
+                        <td>padding (shorthand: padding: top, right, bottom, left)</td>
+                    </tr>
+                    <tr>
+                        <td>Border</td>
+                        <td>Extends padding area to include a border for the element</td>
+                        <td>border, border-width, height</td>
+                    </tr>
+                    <tr>
+                        <td>Margin</td>
+                        <td>Blank area that extends border to seperate an element from other elements.</td>
+                        <td>margin (shorthand: margin: top, right, bottom, left)</td>
+                    </tr>
+            </table>
+            <footer>
+                <p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model">Resource: MDN Basic Box Model</a></p>
+            </footer>
+        </body>
